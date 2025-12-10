@@ -1,0 +1,13 @@
+# Cargo configuration file
+# This file is used to demonstrate the Dependabot issue where it fails to find
+# .cargo/config.toml at the root of the repository
+# See: https://github.com/dependabot/dependabot-core/issues/13523
+
+[build]
+# Example build configuration
+jobs = 4
+
+[term]
+# Terminal output configuration
+color = "auto"
+verbose = false

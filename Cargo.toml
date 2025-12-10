@@ -1,0 +1,10 @@
+[package]
+name = "cargo-dependabot-issue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# Using older versions to demonstrate Dependabot updates
+serde = { version = "1.0.130", features = ["derive"] }
+tokio = { version = "1.15.0", features = ["macros", "rt-multi-thread"] }
+anyhow = "1.0.50"
